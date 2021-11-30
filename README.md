@@ -116,7 +116,7 @@ kubeadm join kube-master-preprod:6443 --token j1bscz.wuwg4lxj4zj5vk68 --discover
   
    kubectl get nodes  
   
-  Deploy Calico Pod Network Add-on (Master Node)
+  -- Deploy Calico Pod Network Add-on (Master Node)
   
   kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
   
